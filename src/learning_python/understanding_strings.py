@@ -62,3 +62,10 @@ Whitespaces
    para organizar las salidas, del tal manera que sean más amigables 
    de leer o ver para los usuarios
 """
+#Tabulador
+print("WHITESPACES")
+print("Python")
+print("\tPython")
+
+# Saldo de linea o final del linea
+print("Lenguages: \nPython\nC\nJavascript")
