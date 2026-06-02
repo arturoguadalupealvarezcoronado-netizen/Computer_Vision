@@ -69,3 +69,18 @@ print("\tPython")
 
 # Saldo de linea o final del linea
 print("Lenguages: \nPython\nC\nJavascript")
+
+
+message = """
+            Arturo Guadalupe Alvarez Coronado
+   Bienvenido a la Universidad Politécnica de Victoria 
+      La mejor Universidad del mundo
+   Donde los estudiantes son bien buena onda 
+"""
+
+print(message)
+
+# Python a crash course 
+# SynttaxError: con string
+message = "una fortaleza de Python es su comunidad"
+print(message) #NameE
