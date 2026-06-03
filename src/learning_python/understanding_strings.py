@@ -76,6 +76,7 @@ message = """
    Bienvenido a la Universidad Politécnica de Victoria 
       La mejor Universidad del mundo
    Donde los estudiantes son bien buena onda 
+
 """
 
 print(message)
@@ -83,4 +84,19 @@ print(message)
 # Python a crash course 
 # SynttaxError: con string
 message = "una fortaleza de Python es su comunidad"
-print(message) #NameE
+print(message) #NameError: name 'message' is not defined
+
+
+
+### f-strings
+"""
+   Los f-strings son una forma de formatear cadenas de texto,
+   introducidos en Python 3.6, que permiten incluir expresiones
+   dentro de una cadena de texto de manera sencilla y legible.
+
+   ejemplo:
+"""
+famous_person = "Albert Einstein"
+famous_teacher = "Charly mercury"
+message = f"{famous_person} una vez dijo: {famous_teacher} es el mejor profesor del mundo"
+print(message)
