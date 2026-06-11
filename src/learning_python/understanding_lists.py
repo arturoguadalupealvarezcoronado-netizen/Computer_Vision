@@ -80,3 +80,35 @@ print("\nEliminando el 4to elemento de la lista: ")
 print("Utilizando el statement del")
 del motorcycles_2[3]
 print(motorcycles_2)
+
+### Método pop
+#Eliminando el último elemento de la lista
+#Utilizando el método pop() sin argumentos
+motorcycles_2.pop()
+print(motorcycles_2)
+
+# Método pop con un argumento (índice del elemento a eliminar)
+motorcycles_2.pop(1)
+print(motorcycles_2)
+
+## Ventaja del pop es que nos permite trabajar con elemento eliminado 
+# después de eliminarlo.
+print("\n")
+motorcycles_3 = ['italika', 'yamaha', 'suzuki']
+print(motorcycles_3)
+charlys_hated_motorcycles = motorcycles_3.pop(0)
+print(motorcycles_3)
+print(f"Charly hates the {charlys_hated_motorcycles}.")
+print(type(charlys_hated_motorcycles)) # Nos muestra el tipo de dato de la variable charlys_hated_motorcycles
+print(dir(motorcycles_3)) # Nos muestra los métodos disponibles para la lista motorcycles_3
+
+# Remove - Eliminar un elemento por su valor
+print("\n")
+motorcycles_4 = ['honda', 'yamaha', 'suzuki', 'duacati']
+print(motorcycles_4)
+motorcycles_4.remove("yamaha")
+print(motorcycles_4)
+
+
+# Ordenar la lista de forma permanente con el método sort()
+cars = ("bmw", "toyota")
