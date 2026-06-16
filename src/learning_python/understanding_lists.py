@@ -111,4 +111,8 @@ print(motorcycles_4)
 
 
 # Ordenar la lista de forma permanente con el método sort()
-cars = ("bmw", "toyota")
+print("\n")
+cars = ("bmw", "toyota", "subaru", "honda")
+print(cars)
+cars.sort()
+print(cars)

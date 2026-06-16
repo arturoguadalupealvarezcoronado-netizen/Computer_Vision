@@ -45,3 +45,36 @@ print("\nSaludo a magos")
 for magician in magicians:
     print(magician.title() + "ese fue un gran hechizo")
     print(f"No puedo esperar para ver tu siguiente hechizo, + {magician.upper()}")
+print("Gracias a todos, fue un gran espectáculo.")
+
+
+###### IDENTACIÓN ######
+"""
+    Python utiliza la identación para determinar
+    cuando una línea de código está conectada a 
+    la línea de código anterior.
+    
+    Básicamente, se utilizan 4 espacios en blanco 
+    para obligarnos a escribir código ordenado 
+    y estructurado.
+"""
+
+"""
+    No olvidemos identar
+"""
+magicians_2 = ["alice", "david", "carolina"]
+for magician in magicians_2:
+    print(magician)
+    print(magician)
+    print(magician)
+    
+
+# Identación innecesaria
+message = "Hello Python world!"
+#    print(message) - identación innecesaria
+print(message)
+
+# Olvidando los dos puntos
+magicians_3 = ["alice", "david", "carolina"]
+for magician in magicians:
+    print(magician)

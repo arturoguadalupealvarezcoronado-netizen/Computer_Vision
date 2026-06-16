@@ -18,6 +18,7 @@ print(numbers)
 print(len(numbers))
 
 # Lista de números pares hasta el 100
+print("\nNúmeros pares")
 even_numbers = list(range(2, 101, 2))
 print(even_numbers)
 
@@ -26,10 +27,11 @@ print = ("\nNúmeros impares")
 odd_numbers = list(range(2, 101, 2))
 print(odd_numbers)
 
+
 ### Podemos crear cualquier lista de número utilizando 
 # range, por ejemplo, hagamos una lista de los 
 # 10 primeros números cuadráticos
-
+print("\nLista de cuadrados")
 squares = []
 for value in range(1,11)
     square = value ** 2
@@ -43,3 +45,10 @@ print(digits)
 # Si quiero saber el mínimo de una lista de números
 # utilizo el método build-in min
 print(min(digits))
+
+# Si quiero saber el máximo de una lista de números
+# utilizo el método build-in  max
+print(max(digits))
+
+# Si quiero sumar los elementos de una lista utilizo sum
+print(sum(digits))
